@@ -1,5 +1,5 @@
 <header class="position-relative">
-  <div class="page-header min-vh-100" style="background-image: url(../../assets/img/bg6.jpg);">
+  <div class="page-header min-vh-100" style="background-image: url(https://www.safarirun.com/public/images/safari/logo.png);">
     <span class="mask bg-gradient-dark"></span>
     <div class="container">
       <div class="row">
