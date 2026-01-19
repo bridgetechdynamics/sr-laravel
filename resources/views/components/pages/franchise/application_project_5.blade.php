@@ -46,7 +46,7 @@
           <div>
             <h5>1. Duis aute irure dolor in reprehenderit</h5>
             <p>
-	      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
           </div>
         </div>
@@ -55,7 +55,7 @@
           <div>
             <h5>2. Duis aute irure dolor in reprehenderit</h5>
             <p>
-	      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
           </div>
         </div>
@@ -64,7 +64,7 @@
           <div>
             <h5>3. Duis aute irure dolor in reprehenderit</h5>
             <p>
-	      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
           </div>
         </div>

@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-lg-6 col-md-3 text-start my-auto">
         <p class="mb-0 text-white text-sm">
-	Header about viewing
+    Header about viewing
 policies
         </p>
       </div>
