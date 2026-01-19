@@ -9,7 +9,7 @@
         'cta_2'   => 'Contact Us',
     ])
     @include('components.shared.program_highlights')
-    @include('components.pages.index.content_1_title_description_and_6_images')
+    @include('components.shared.gallery_hero')
     @include('components.shared.section_testimonials_2')
     @include('components.pages.index.features_w_image_on_left_title_text_3_cols_on_background')
     @include('components.pages.index.section_content_w_2_images_aside_of_icon_title_description')
