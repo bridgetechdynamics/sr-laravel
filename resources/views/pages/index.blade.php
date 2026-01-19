@@ -12,7 +12,7 @@
     @include('components.shared.gallery_hero')
     @include('components.shared.section_testimonials_2')
     @include('components.shared.locations_hero')
-    @include('components.pages.index.section_content_w_2_images_aside_of_icon_title_description')
+    @include('components.pages.index.franchise_hero')
     @include('components.pages.index.header_2_w_waves_and_typed_text')
     @include('components.shared.footer')
 @endsection
