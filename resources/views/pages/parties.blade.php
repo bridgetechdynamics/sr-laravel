@@ -2,7 +2,7 @@
 
 @section('content')
     @include('components.shared.navbar_dark')
-    @include('components.pages.parties.navbar_light')
+    @include('components.shared.navbar_light_2')
     @include('components.pages.parties.header_1_w_text_and_image_on_right')
     @include('components.pages.parties.pricing_4')
     @include('components.pages.parties.footer_4_dark_w_2_cols')

@@ -2,7 +2,7 @@
 
 @section('content')
     @include('components.shared.navbar_dark')
-    @include('components.pages.open-play.navbar_light')
+    @include('components.shared.navbar_light_2')
     @include('components.pages.open-play.header_5_w_text_and_illustration')
     @include('components.pages.open-play.pricing_5')
     @include('components.shared.faq')

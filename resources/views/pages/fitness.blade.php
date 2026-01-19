@@ -2,7 +2,7 @@
 
 @section('content')
     @include('components.shared.navbar_dark')
-    @include('components.pages.fitness.navbar_light')
+    @include('components.shared.navbar_light_2')
     @include('components.pages.fitness.header_1_w_text_and_image_on_right')
     @include('components.pages.fitness.features_w_title_and_3_infos')
     @include('components.pages.fitness.features_w_6_cols_w_company_logos_title_text')

@@ -2,7 +2,7 @@
 
 @section('content')
     @include('components.shared.navbar_dark')
-    @include('components.pages.camps.navbar_light')
+    @include('components.shared.navbar_light_2')
     @include('components.pages.camps.header_1_w_text_and_image_on_right')
     @include('components.pages.camps.section_content_w_2_images_aside_of_icon_title_description')
     @include('components.pages.camps.teams_1')
