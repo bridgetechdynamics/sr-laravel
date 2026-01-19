@@ -2,7 +2,12 @@
 
 @section('content')
     @include('components.shared.navbar_light_1')
-    @include('components.pages.index.header_1_w_text_and_image_on_right')
+    @include('components.pages.index.hero_1', [
+        'title'   => 'Overview of Safari Run goes here', 
+        'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Duis aute irure.',
+        'cta_1'   => 'View Locations', 
+        'cta_2'   => 'Contact Us',
+    ])
     @include('components.pages.index.features_w_6_cols_w_company_logos_title_text')
     @include('components.pages.index.content_1_title_description_and_6_images')
     @include('components.shared.section_testimonials_2')

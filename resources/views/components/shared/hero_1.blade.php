@@ -6,11 +6,13 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-7 d-flex justify-content-center flex-column">
-          <h1 class="mb-4">Overview of Safari Run goes here</h1>
-          <p class="lead pe-5 me-5">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Duis aute irure.</p>
+          <h1 class="mb-4">{{ $title }}</h1>
+          <p class="lead pe-5 me-5">{{ $content }}</p>
           <div class="buttons">
-            <button type="button" class="btn bg-gradient-warning mt-4">View Locations</button>
-            <button type="button" class="btn text-warning shadow-none mt-4">Contact Us</button>
+            <button type="button" class="btn bg-gradient-warning mt-4">{{ $cta_1 }}</button>
+            @isset($cta_2)
+            <button type="button" class="btn text-warning shadow-none mt-4">{{ $cta_2 }}</button>
+            @endisset
           </div>
         </div>
       </div>
