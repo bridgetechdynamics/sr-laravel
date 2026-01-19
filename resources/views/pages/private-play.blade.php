@@ -8,5 +8,5 @@
     @include('components.shared.faq')
     @include('components.pages.private-play.footer_4_dark_w_2_cols')
     @include('components.pages.private-play.header_2_w_waves_and_typed_text')
-    @include('components.shared.footer_1_w_company_description_and_4_cols')
+    @include('components.shared.footer')
 @endsection

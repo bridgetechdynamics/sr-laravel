@@ -7,5 +7,5 @@
     @include('components.pages.about-us.features_w_icons_and_text_on_left_gradient_title_and_text_on_right')
     @include('components.pages.about-us.features_w_6_cols_w_company_logos_title_text')
     @include('components.pages.about-us.header_2_w_waves_and_typed_text')
-    @include('components.shared.footer_1_w_company_description_and_4_cols')
+    @include('components.shared.footer')
 @endsection

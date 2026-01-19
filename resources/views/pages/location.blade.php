@@ -12,5 +12,5 @@
     @include('components.pages.location.content_1_title_description_and_6_images')
     @include('components.pages.location.features_w_image_on_left_title_text_3_cols_on_background')
     @include('components.pages.location.header_2_w_waves_and_typed_text')
-    @include('components.shared.footer_1_w_company_description_and_4_cols')
+    @include('components.shared.footer')
 @endsection
