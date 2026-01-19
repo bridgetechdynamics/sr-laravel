@@ -6,19 +6,19 @@
         <p class="mb-4 pb-2">
             Ut enim ad minim veniam, quis nostrud exercit
         </p>
-        <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-3">
+        <a href="javascript:;" class="text-secondary me-xl-4 me-3">
           <span class="text-lg fab fa-facebook"></span>
         </a>
-        <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-3">
+        <a href="javascript:;" class="text-secondary me-xl-4 me-3">
           <span class="text-lg fab fa-twitter"></span>
         </a>
-        <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-3">
+        <a href="javascript:;" class="text-secondary me-xl-4 me-3">
           <span class="text-lg fab fa-instagram"></span>
         </a>
-        <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-3">
+        <a href="javascript:;" class="text-secondary me-xl-4 me-3">
           <span class="text-lg fab fa-pinterest"></span>
         </a>
-        <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-3">
+        <a href="javascript:;" class="text-secondary me-xl-4 me-3">
           <span class="text-lg fab fa-github"></span>
         </a>
       </div>
@@ -26,25 +26,25 @@
         <h6 class="text-sm">Company</h6>
         <ul class="flex-column ms-n3 nav">
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="https://www.creative-tim.com" target="_blank">
+            <a class="nav-link text-secondary" href="/about-us.html">
               About Us
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="https://www.creative-tim.com" target="_blank">
+            <a class="nav-link text-secondary" href="#">
               Careers
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="https://www.creative-tim.com" target="_blank">
+            <a class="nav-link text-secondary" href="#">
               Press
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="https://www.creative-tim.com" target="_blank">
+            <a class="nav-link text-secondary" href="#">
               Blog
             </a>
           </li>
@@ -55,25 +55,25 @@
         <h6 class="text-sm">Pages</h6>
         <ul class="flex-column ms-n3 nav">
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="https://www.creative-tim.com" target="_blank">
+            <a class="nav-link text-secondary" href="#">
               Login
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="https://www.creative-tim.com" target="_blank">
+            <a class="nav-link text-secondary" href="#">
               Register
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="https://www.creative-tim.com" target="_blank">
+            <a class="nav-link text-secondary" href="#">
               Add list
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="https://www.creative-tim.com" target="_blank">
+            <a class="nav-link text-secondary" href="/contact-us.html">
               Contact
             </a>
           </li>
@@ -84,25 +84,25 @@
         <h6 class="text-sm">Legal</h6>
         <ul class="flex-column ms-n3 nav">
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="https://www.creative-tim.com" target="_blank">
+            <a class="nav-link text-secondary" href="/legal.html">
               Terms
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="https://www.creative-tim.com" target="_blank">
+            <a class="nav-link text-secondary" href="#">
               About Us
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="https://www.creative-tim.com" target="_blank">
+            <a class="nav-link text-secondary" href="#">
               Team
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="https://www.creative-tim.com" target="_blank">
+            <a class="nav-link text-secondary" href="/legal.html#privacy">
               Privacy
             </a>
           </li>
@@ -113,25 +113,25 @@
         <h6 class="text-sm">Resources</h6>
         <ul class="flex-column ms-n3 nav">
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="https://www.creative-tim.com" target="_blank">
+            <a class="nav-link text-secondary" href="#">
               Blog
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="https://www.creative-tim.com" target="_blank">
+            <a class="nav-link text-secondary" href="#">
               Service
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="https://www.creative-tim.com" target="_blank">
+            <a class="nav-link text-secondary" href="#">
               Product
             </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="https://www.creative-tim.com" target="_blank">
+            <a class="nav-link text-secondary" href="#">
               Pricing
             </a>
           </li>
