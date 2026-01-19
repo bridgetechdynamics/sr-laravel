@@ -12,7 +12,7 @@
     @include('components.shared.gallery_hero')
     @include('components.shared.testimonials')
     @include('components.shared.locations_hero')
-    @include('components.pages.index.franchise_hero')
+    @include('components.shared.franchise_hero')
     @include('components.shared.bottom_header', [
         'title'   => 'Header about finding a Safari Run near you', 
         'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore.',
