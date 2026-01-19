@@ -13,6 +13,11 @@
     @include('components.shared.section_testimonials_2')
     @include('components.shared.locations_hero')
     @include('components.pages.index.franchise_hero')
-    @include('components.pages.index.header_2_w_waves_and_typed_text')
+    @include('components.shared.bottom_header', [
+        'title'   => 'Header about finding a Safari Run near you', 
+        'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore.',
+        'cta_1'   => 'View Locations', 
+        'cta_2'   => 'Contact Us',
+    ])
     @include('components.shared.footer')
 @endsection
