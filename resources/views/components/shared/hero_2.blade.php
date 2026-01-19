@@ -3,10 +3,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 my-auto">
-          <h1 class="mb-0">Overview on Memberships</h1>
-          <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Duis aute irure.</p>
+          <h1 class="mb-0">{{ $title }}</h1>
+          <p>{{ $content }}</p>
           <div class="buttons">
-            <button type="button" class="btn bg-gradient-warning mt-4">Sign Up</button>
+            <button type="button" class="btn bg-gradient-warning mt-4">{{ $cta_1 }}</button>
           </div>
         </div>
         <div class="col-lg-8 ps-5 pe-0">

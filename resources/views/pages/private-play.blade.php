@@ -3,7 +3,11 @@
 @section('content')
     @include('components.shared.navbar_dark')
     @include('components.shared.navbar_light_2')
-    @include('components.pages.private-play.header_5_w_text_and_illustration')
+    @include('components.shared.hero_2', [
+        'title'   => 'Private play overview', 
+        'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Duis aute irure.',
+        'cta_1'   => 'Book Session', 
+    ])
     @include('components.pages.private-play.pricing_5')
     @include('components.shared.faq')
     @include('components.pages.private-play.footer_4_dark_w_2_cols')
