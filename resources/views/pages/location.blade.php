@@ -7,7 +7,7 @@
     @include('components.pages.location.header_1_w_text_and_image_on_right')
     @include('components.pages.location.features_w_4_cols_w_title_text_link')
     @include('components.pages.location.section_content_w_2_images_aside_of_icon_title_description')
-    @include('components.pages.location.features_w_6_cols_w_company_logos_title_text')
+    @include('components.shared.program_highlights')
     @include('components.shared.section_testimonials_2')
     @include('components.pages.location.content_1_title_description_and_6_images')
     @include('components.pages.location.features_w_image_on_left_title_text_3_cols_on_background')

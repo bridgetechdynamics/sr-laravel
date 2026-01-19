@@ -2,13 +2,13 @@
 
 @section('content')
     @include('components.shared.navbar_light_1')
-    @include('components.pages.index.hero_1', [
+    @include('components.shared.hero_1', [
         'title'   => 'Overview of Safari Run goes here', 
         'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Duis aute irure.',
         'cta_1'   => 'View Locations', 
         'cta_2'   => 'Contact Us',
     ])
-    @include('components.pages.index.features_w_6_cols_w_company_logos_title_text')
+    @include('components.shared.program_highlights')
     @include('components.pages.index.content_1_title_description_and_6_images')
     @include('components.shared.section_testimonials_2')
     @include('components.pages.index.features_w_image_on_left_title_text_3_cols_on_background')
