@@ -10,7 +10,7 @@
     ])
     @include('components.shared.program_highlights')
     @include('components.shared.gallery_hero')
-    @include('components.shared.section_testimonials_2')
+    @include('components.shared.testimonials')
     @include('components.shared.locations_hero')
     @include('components.pages.index.franchise_hero')
     @include('components.shared.bottom_header', [
