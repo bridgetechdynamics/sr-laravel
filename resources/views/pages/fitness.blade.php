@@ -1,0 +1,15 @@
+@extends('layouts.base')
+
+@section('content')
+    @include('components.shared.navbar_dark')
+    @include('components.pages.fitness.navbar_light')
+    @include('components.pages.fitness.header_1_w_text_and_image_on_right')
+    @include('components.pages.fitness.features_w_title_and_3_infos')
+    @include('components.pages.fitness.features_w_6_cols_w_company_logos_title_text')
+    @include('components.pages.fitness.features_w_6_cols_w_company_logos_title_text')
+    @include('components.pages.fitness.features_w_6_cols_w_company_logos_title_text')
+    @include('components.shared.faq')
+    @include('components.pages.fitness.footer_4_dark_w_2_cols')
+    @include('components.pages.fitness.header_2_w_waves_and_typed_text')
+    @include('components.shared.footer_1_w_company_description_and_4_cols')
+@endsection
