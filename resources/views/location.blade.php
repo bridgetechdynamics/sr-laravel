@@ -1,16 +1,16 @@
 @extends('layouts.base')
 
 @section('content')
-    @include('components.shared.navbar_dark')
-    @include('components.shared.navbar_light_2')
-    @include('components.shared.promo_banner')
-    @include('components.shared.hero_1', [
+    @include('components.navbar_dark')
+    @include('components.navbar_light_2')
+    @include('components.promo_banner')
+    @include('components.hero_1', [
         'title'   => 'Overview of Location goes here', 
         'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Duis aute irure.',
         'cta_1'   => 'Book Membership', 
         'cta_2'   => 'Book a Party',
     ])
-    @include('components.shared.contact_hero')
+    @include('components.contact_hero')
 
 <section class="py-7">
   <div class="container">
@@ -36,15 +36,15 @@
   </div>
 </section>
 
-    @include('components.shared.program_highlights')
-    @include('components.shared.testimonials')
-    @include('components.shared.gallery_hero')
-    @include('components.shared.locations_hero', ['title' => 'Check out our other locations'])
-    @include('components.shared.bottom_header', [
+    @include('components.program_highlights')
+    @include('components.testimonials')
+    @include('components.gallery_hero')
+    @include('components.locations_hero', ['title' => 'Check out our other locations'])
+    @include('components.bottom_header', [
         'title'   => 'Header about being ready to play at Safari Run', 
         'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore.',
         'cta_1'   => 'Book Membership', 
         'cta_2'   => 'Book a Party',
     ])
-    @include('components.shared.footer')
+    @include('components.footer')
 @endsection

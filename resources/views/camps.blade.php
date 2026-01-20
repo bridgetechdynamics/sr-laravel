@@ -1,9 +1,9 @@
 @extends('layouts.base')
 
 @section('content')
-    @include('components.shared.navbar_dark')
-    @include('components.shared.navbar_light_2')
-    @include('components.shared.hero_1', [
+    @include('components.navbar_dark')
+    @include('components.navbar_light_2')
+    @include('components.hero_1', [
         'title'   => 'Camp Overview', 
         'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Duis aute irure.',
         'cta_1'   => 'Reserve Now', 
@@ -48,19 +48,19 @@
   </div>
 </section>
 
-    @include('components.shared.camping_activities')
-    @include('components.shared.camps_pricing')
-    @include('components.shared.faq')
-    @include('components.shared.thin_banner', [
+    @include('components.camping_activities')
+    @include('components.camps_pricing')
+    @include('components.faq')
+    @include('components.thin_banner', [
         'title'   => 'Header about viewing policies and waivers', 
         'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Duis aute irure.',
         'cta_1'   => 'Reserve Now', 
         'cta_2'   => 'Contact Us', 
     ])
-    @include('components.shared.bottom_header', [
+    @include('components.bottom_header', [
         'title'   => 'Header about reserving a camp', 
         'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore.',
         'cta_1'   => 'Reserve Now', 
     ])
-    @include('components.shared.footer')
+    @include('components.footer')
 @endsection

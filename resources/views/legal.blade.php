@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('content')
-    @include('components.shared.navbar_light_1')
+    @include('components.navbar_light_1')
 
 
   <section class="pt-3 pt-md-5 pb-md-5 pt-lg-7">
@@ -181,5 +181,5 @@
     </div>
   </section>
 
-    @include('components.shared.footer')
+    @include('components.footer')
 @endsection

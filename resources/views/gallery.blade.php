@@ -1,8 +1,8 @@
 @extends('layouts.base')
 
 @section('content')
-    @include('components.shared.navbar_dark')
-    @include('components.shared.navbar_light_2')
+    @include('components.navbar_dark')
+    @include('components.navbar_light_2')
 
 <section class="py-5">
   <div class="container">
@@ -37,5 +37,5 @@
   </div>
 </section>
 
-    @include('components.shared.footer')
+    @include('components.footer')
 @endsection

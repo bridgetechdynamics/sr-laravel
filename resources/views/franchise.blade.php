@@ -1,8 +1,8 @@
 @extends('layouts.base')
 
 @section('content')
-    @include('components.shared.navbar_light_1')
-    @include('components.shared.hero_2', [
+    @include('components.navbar_light_1')
+    @include('components.hero_2', [
         'title'   => 'Overview of Franchise Opportunities', 
         'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Duis aute irure.',
         'cta_1'   => 'Inquire', 
@@ -106,10 +106,10 @@
   </div>
 </section>
 
-    @include('components.shared.bottom_header', [
+    @include('components.bottom_header', [
         'title'   => 'Header about franchise opportunities', 
         'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore.',
         'cta_1'   => 'Inquire', 
     ])
-    @include('components.shared.footer')
+    @include('components.footer')
 @endsection
