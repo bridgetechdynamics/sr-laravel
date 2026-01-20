@@ -8,10 +8,24 @@
         'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Duis aute irure.',
         'cta_1'   => 'Book Party', 
     ])
-    @include('components.pages.parties.pricing_4')
-    @include('components.pages.parties.footer_4_dark_w_2_cols')
+    @include('components.shared.pricing_banner')
+    @include('components.shared.thin_banner', [
+        'title'   => 'Header about taking a look at the party menu!', 
+        'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Duis aute irure.',
+        'cta_1'   => 'Book Party', 
+        'cta_2'   => 'Contact Us', 
+    ])
     @include('components.shared.faq')
-    @include('components.pages.parties.footer_4_dark_w_2_cols')
-    @include('components.pages.parties.header_2_w_waves_and_typed_text')
+    @include('components.shared.thin_banner', [
+        'title'   => 'Header about viewing policies and waivers', 
+        'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Duis aute irure.',
+        'cta_1'   => 'Book Membership', 
+        'cta_2'   => 'Contact Us', 
+    ])
+    @include('components.shared.bottom_header', [
+        'title'   => 'Header about being ready to book a party!', 
+        'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore.',
+        'cta_1'   => 'Book Membership', 
+    ])
     @include('components.shared.footer')
 @endsection
