@@ -4,7 +4,12 @@
     @include('components.shared.navbar_dark')
     @include('components.shared.navbar_light_2')
     @include('components.pages.location.promo_banner')
-    @include('components.pages.location.header_1_w_text_and_image_on_right')
+    @include('components.shared.hero_1', [
+        'title'   => 'Overview of Location goes here', 
+        'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Duis aute irure.',
+        'cta_1'   => 'Book Membership', 
+        'cta_2'   => 'Book a Party',
+    ])
     @include('components.pages.location.features_w_4_cols_w_title_text_link')
     @include('components.pages.location.section_content_w_2_images_aside_of_icon_title_description')
     @include('components.shared.program_highlights')
