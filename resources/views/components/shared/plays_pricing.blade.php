@@ -5,7 +5,7 @@
        <div class="row">
           <div class="col-lg-8">
              <div class="card-body">
-                <h3 class="text-info">Info about private play and cost</h3>
+                <h3 class="text-info">{{ $title }}</h3>
                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 <div class="row mt-5 mb-2">
                    <div class="col-lg-3 col-12">
