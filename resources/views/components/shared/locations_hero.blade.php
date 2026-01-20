@@ -7,7 +7,7 @@
           <div class="col-xl-3"></div>
           <div class="col-xl-5 col-md-8 col-12 text-left">
             <div class="p-3 text-center border-radius-lg">
-              <h2>Locations</h2>
+              <h2>{{ $title }}</h2>
             </div>
           </div>
         </div>

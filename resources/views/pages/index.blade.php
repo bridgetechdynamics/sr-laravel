@@ -11,7 +11,7 @@
     @include('components.shared.program_highlights')
     @include('components.shared.gallery_hero')
     @include('components.shared.testimonials')
-    @include('components.shared.locations_hero')
+    @include('components.shared.locations_hero', ['title' => 'Locations'])
     @include('components.shared.franchise_hero')
     @include('components.shared.bottom_header', [
         'title'   => 'Header about finding a Safari Run near you', 
