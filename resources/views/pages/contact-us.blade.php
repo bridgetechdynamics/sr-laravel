@@ -2,6 +2,7 @@
 
 @section('content')
     @include('components.shared.navbar_light_1')
+
 <section class="py-7 bg-cover position-relative" style="background-image: url(&#39;https://www.safarirun.com/public/images/safari/logo.png&#39;)">
   <div class="mask bg-gradient-dark"></div>
   <div class="container position-relative z-index-2">
@@ -84,5 +85,6 @@
     </div>
   </div>
 </section>
+
     @include('components.shared.footer')
 @endsection

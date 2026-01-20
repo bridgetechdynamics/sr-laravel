@@ -7,6 +7,7 @@
         'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Duis aute irure.',
         'cta_1'   => 'Inquire', 
     ])
+
 <section class="py-7">
   <div class="container">
     <div class="row">
@@ -28,6 +29,7 @@
     </div>
   </div>
 </section>
+
 <section class="py-5">
   <div class="container">
     <div class="row">
@@ -103,6 +105,7 @@
     </div>
   </div>
 </section>
+
     @include('components.shared.bottom_header', [
         'title'   => 'Header about franchise opportunities', 
         'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore.',
