@@ -10,7 +10,7 @@
         'cta_1'   => 'Book Membership', 
         'cta_2'   => 'Book a Party',
     ])
-    @include('components.pages.location.features_w_4_cols_w_title_text_link')
+    @include('components.shared.contact_hero')
     @include('components.pages.location.section_content_w_2_images_aside_of_icon_title_description')
     @include('components.shared.program_highlights')
     @include('components.shared.testimonials')
