@@ -8,7 +8,7 @@
         'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Duis aute irure.',
         'cta_1'   => 'Book Session', 
     ])
-    @include('components.plays_pricing', ['title' => 'Info about private plays and cost'])
+    @include('components.plays.pricing', ['title' => 'Info about private plays and cost'])
     @include('components.faq')
     @include('components.thin_banner', [
         'title'   => 'Header about viewing policies and waivers', 
