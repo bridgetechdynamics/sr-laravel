@@ -8,7 +8,7 @@
         'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Duis aute irure.',
         'cta_1'   => 'Book Party', 
     ])
-    @include('components.pricing_banner')
+    @include('components.parties.pricing')
     @include('components.thin_banner', [
         'title'   => 'Header about taking a look at the party menu!', 
         'content' => 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! Duis aute irure.',
